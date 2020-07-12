@@ -10,9 +10,10 @@
         <img
           v-else
           :src="$siteConfig.logo"
-          :alt="$siteConfig.siteName"
+          :alt="$siteConfig.logoAlt"
           class="logo"
         />
+        Wandering Prius
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>

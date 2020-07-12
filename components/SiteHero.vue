@@ -146,7 +146,7 @@ export default {
 }
 .hero-theme-light.hero {
   &:after {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.35);
   }
   .title,
   .subtitle,

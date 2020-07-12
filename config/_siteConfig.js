@@ -12,7 +12,9 @@ export default {
   siteName: 'Wandering Prius',
   tagline: 'The adventures of Jam and Ska around Australia in a Prius',
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/noun_Car_25465.png', // 'logo-component', // or '/logo.svg' for regular image
+  logoAlt:
+    'Wandering Prius Logo - Car by Nurutdinov Timur from the Noun Project',
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
