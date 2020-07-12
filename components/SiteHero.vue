@@ -100,6 +100,7 @@ export default {
     right: 0;
     bottom: 0;
     object-fit: cover;
+    object-position: 50% 70%;
     width: 100%;
     height: 100%;
   }
@@ -145,7 +146,7 @@ export default {
 }
 .hero-theme-light.hero {
   &:after {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.15);
   }
   .title,
   .subtitle,
