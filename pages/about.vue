@@ -2,47 +2,39 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="About Us"
-      subtitle="Example About Page"
+      subtitle="Chronicaling the adventures of Jam and Ska around Australia"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>What is this site about?</h3>
           <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            This is a personal blogging site to list out our thoughts and
+            musings as we travel around Australia during the Covid-19 recovery
+            period in mid-2020.
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>How are we travelling?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            We are setting off on our second trip now in our 2009 Toyota Prius
+            that we have converted to be our comfy home for up to 2 months at a
+            time as we travel far and wide across Australia.
           </p>
+
           <quote-card />
-          <h3>Still More Fake Content</h3>
+
+          <h3>What are we doing on the trip?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            We both work Monday to Friday, but while we are not working we'll be
+            travelling from Canberra to Cairns, and back agian. On the weekends
+            we will be out exploring our new surrounds. During the week we'll be
+            enjoying the places we end up, and making sure we are somewhere
+            interesting to make the most of the weekends.
           </p>
         </div>
 
-        <div class="tile is-ancestor">
+        <!-- <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
@@ -82,7 +74,7 @@
               </figure>
             </article>
           </div>
-        </div>
+        </div> -->
       </template>
 
       <template v-slot:sidebar>
