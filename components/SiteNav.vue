@@ -13,7 +13,6 @@
           :alt="$siteConfig.logoAlt"
           class="logo"
         />
-        Wandering Prius
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -62,7 +61,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 .navbar-item img {
-  max-height: 2rem;
+  display: block;
+  width: 200px;
+  max-height: none;
 }
 .site-search-wrapper {
   transform: translateX(5px);
