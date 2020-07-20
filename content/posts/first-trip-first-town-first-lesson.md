@@ -5,7 +5,7 @@ category:
   - Car Living
 author: Ska
 date: 2020-06-19T11:23:00.000Z
-featureImage: /uploads/img_20200619_143701.jpg
+featureImage: /uploads/griffith.jpg
 ---
 It’s Friday and we are both not working today. We already packed half of our stuff the previous night and are taking our own sweet time now. We double checked our packing list. Clothing, toiletries, tech, power, entertainment, sleeping, cooking, washing, food and water; all checked.
 
@@ -17,7 +17,7 @@ We arrived at Griffith around 530pm. We drove along the city centre up to the TA
 
 We ordered bolognese pizza and pork belly. OMG, the pork belly was amazing. It was such a generous portion for an entree. Totally a must try!
 
-![twice cooked pork belly with a crispy slaw and pomegranate balsamic glaze](/uploads/img_5553.jpg "Pork Belly")
+![twice cooked pork belly with a crispy slaw and pomegranate balsamic glaze](/uploads/porkbelly.jpg "Pork Belly")
 
 After dinner, we went to look for caravan park. By then, all of the caravan parks are already closed. The first time we went to a caravan park sometime last year, the park allow us to pick a space and pay in the morning. We didn’t know that wasn’t the norm. Now we’ve learnt our first lesson. Always go to caravan park first when you arrive in a town and aim to arrive early.
 
