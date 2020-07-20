@@ -54,7 +54,9 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  margin-top: 52px;
+  // margin-top: 52px;
+  max-width: 90%;
+  margin: 100px auto 0;
   background-size: cover !important;
   background-position: center;
   text-align: center;
@@ -63,9 +65,10 @@ export default {
 }
 
 .title {
-  font-weight: 300;
+  font-family: 'Caveat Brush', cursive;
+  font-weight: 400;
   @media (min-width: 768px) {
-    font-size: 3.2rem;
+    font-size: 4.5rem;
   }
 }
 .subtitle,
@@ -128,7 +131,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.35);
     position: absolute;
   }
   .hero-body {

@@ -28,6 +28,11 @@ export default {
       sizes: '180x180',
       type: 'image/png',
       href: '/apple-touch-icon.png'
+    },
+    {
+      rel: 'stylesheet',
+      href:
+        'https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Caveat+Brush&display=swap'
     }
   ],
   script: [

@@ -68,4 +68,7 @@ export default {
 .edit-post {
   margin-bottom: 20px;
 }
+.author-wrapper {
+  margin-right: 20px;
+}
 </style>

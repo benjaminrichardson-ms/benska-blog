@@ -107,3 +107,10 @@ export default {
   }
 }
 </script>
+
+<style>
+html,
+body {
+  font-family: 'Mulish', sans-serif;
+}
+</style>
