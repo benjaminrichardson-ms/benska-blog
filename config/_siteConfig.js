@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Wandering Prius',
   tagline: 'The adventures of Jam and Ska around Australia in a Prius',
-  featureImage: '/uploads/home-hero.jpg',
+  featureImage: '/uploads/brokenhill.jpg',
   logo: '/wanderingprius.svg', // 'logo-component', // or '/logo.svg' for regular image
   logoAlt: 'Wandering Prius',
   googleAnalytics: {

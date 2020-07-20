@@ -9,7 +9,27 @@ export default {
       content: process.env.npm_package_description || ''
     }
   ],
-  link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  link: [
+    { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+    {
+      rel: 'icon',
+      sizes: '192x192',
+      type: 'image/png',
+      href: '/android-chrome-192x192.png'
+    },
+    {
+      rel: 'icon',
+      sizes: '512x512',
+      type: 'image/png',
+      href: '/android-chrome-512x512.png'
+    },
+    {
+      rel: 'apple-touch-icon',
+      sizes: '180x180',
+      type: 'image/png',
+      href: '/apple-touch-icon.png'
+    }
+  ],
   script: [
     {
       src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
