@@ -2,7 +2,7 @@
 title: First trip. First town. First lesson.
 subtitle: Our trip to Griffith
 category:
-  - Car Living
+  - Journey
 author: Ska
 date: 2020-06-19T11:23:00.000Z
 featureImage: /uploads/griffith.jpg
