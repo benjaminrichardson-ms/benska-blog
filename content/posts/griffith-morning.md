@@ -2,7 +2,7 @@
 title: Griffith Morning
 subtitle: Hermit's Cave and Yarran Wines
 category:
-  - Perfect Places
+  - Journey
 author: Ska
 date: 2020-06-20T12:55:00.000Z
 featureImage: /uploads/yarranwines.jpg
