@@ -1,5 +1,6 @@
 ---
 name: Car Living
-image: /noun_Car_25465.png
+image: /uploads/brokenhill-bed.jpg
+description: Our Prius setup to make our trip comfortable.
 ---
 All about travelling and living in our car
