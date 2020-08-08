@@ -2,7 +2,7 @@
 title: Pawsome Start
 subtitle: meow
 category:
-  - Car Living
+  - Journey
 author: Ska
 date: 2020-07-31T09:42:35.012Z
 featureImage: /uploads/cowra.jpg
