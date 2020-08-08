@@ -1,5 +1,6 @@
 ---
 name: Perfect Places
-image: /noun_Car_25465.png
+image: /uploads/waterfall.jpg
+description: All the beautiful places we've seen around Australia.
 ---
 The places we come across on our travels
