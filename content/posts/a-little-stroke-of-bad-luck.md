@@ -14,3 +14,5 @@ Marlborough is a one-hour drive away from Rockhampton. It is a small town with 1
 After we arrive in Marlborough, we drove around the town, which took only less than 5 minutes probably. There is a museum in town, but we didn't visit it since today is a busy day for both of us. We then went to the caravan park. They have a cat here too! The cat is shy though. I only managed to give a few pets before they walked away.
 
 After we registered, we got ourselves a spot under a big tree. Parking under a tree is always good because it provides shade. However, there are also more chances of bird poo falling. This was proven not long after. We found bird poo on the wooden cover on one of the boxes. We then moved our car and boxes slightly out of the tree but still under the shades. It seems like it's going to be car wash day again soon.
+
+![](/uploads/marlborough3.jpg "Cooking soup for dinner")
