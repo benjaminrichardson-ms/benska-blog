@@ -20,6 +20,6 @@ Around 5pm, we went for a walk to the beach to see the water. It looks close eno
 
 It was such an interesting experience. The water was slowly flowing in instead of what we often see, waves crashing in and pulling out.
 
-\[video of the water]
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/iIkTLLf1bDHTqnPxpI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 After that, we went to wash our feet in the main amenities area. Jam then received an sms from BarraCrab, informing the happy hours and dinner menu for the night: $10 for steak or minced beef burger, $5 for sausage sizzle, and $3 chips. Meal for tonight is settled!
