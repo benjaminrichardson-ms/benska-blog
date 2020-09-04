@@ -9,6 +9,12 @@ if (process.env.URL && process.argv[2] === 'generate') {
   }
 }
 
+export const buildModules = []
+
+if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
+  buildModules.push('@nuxtjs/google-analytics')
+}
+
 export const modules = [
   // Doc: https://axios.nuxtjs.org/usage
   '@nuxtjs/axios',
@@ -17,9 +23,6 @@ export const modules = [
   'nuxt-fontawesome',
   'nuxt-responsive-loader'
 ]
-if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
-  modules.push('@nuxtjs/google-gtag')
-}
 
 export const modulesSettings = {
   fontawesome: {
@@ -48,7 +51,7 @@ export const modulesSettings = {
     adapter: require('responsive-loader/sharp'),
     disable: process.env.NODE_ENV === 'development'
   },
-  'google-gtag': {
+  googleAnalytics: {
     id: siteConfig.googleAnalytics.id
   }
 }

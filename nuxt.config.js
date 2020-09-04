@@ -1,7 +1,10 @@
+/* eslint-disable import/first */
+require('dotenv').config()
+
 import path from 'path'
 import glob from 'glob'
 import head from './config/head'
-import { modules, modulesSettings } from './config/modules'
+import { buildModules, modules, modulesSettings } from './config/modules'
 import plugins from './config/plugins'
 import build from './config/build'
 import css from './config/css'
@@ -18,6 +21,9 @@ export default {
    ** Headers of the page
    */
   head: head,
+  router: {
+    trailingSlash: true
+  },
   generate: {
     routes: otherRoutes.concat(getDynamicPaths(routeMap))
   },
@@ -32,6 +38,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
+  buildModules: buildModules,
   modules: modules,
   ...modulesSettings,
   /*
