@@ -14,9 +14,6 @@ export default {
   featureImage: '/uploads/brokenhill.jpg',
   logo: '/wanderingprius.svg', // 'logo-component', // or '/logo.svg' for regular image
   logoAlt: 'Wandering Prius',
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID
-  },
   mainMenu: [
     {
       name: 'About',

@@ -12,7 +12,7 @@ if (process.env.URL && process.argv[2] === 'generate') {
 
 export const buildModules = []
 
-if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
+if (process.env.GOOGLE_ANALYTICS_ID) {
   buildModules.push('@nuxtjs/google-analytics')
 }
 
@@ -29,7 +29,7 @@ export const modules = [
 
 export const modulesSettings = {
   googleAnalytics: {
-    id: siteConfig.googleAnalytics.id
+    id: process.env.GOOGLE_ANALYTICS_ID
   },
   fontawesome: {
     imports: [
@@ -45,10 +45,10 @@ export const modulesSettings = {
   robots: {
     UserAgent: '*',
     Allow: '/',
-    Sitemap: 'http://wanderingprius.com/sitemap.xml'
+    Sitemap: 'https://wanderingprius.com/sitemap.xml'
   },
   sitemap: {
-    hostname: 'http://wanderingprius.com',
+    hostname: 'https://wanderingprius.com',
     gzip: true,
     routes: [...getDynamicPaths(routeMap)]
   },
