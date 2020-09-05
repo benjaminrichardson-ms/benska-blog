@@ -50,7 +50,7 @@ export const modulesSettings = {
   sitemap: {
     hostname: 'http://wanderingprius.com',
     gzip: true,
-    routes: [...getDynamicPaths(routeMap, true)]
+    routes: [...getDynamicPaths(routeMap)]
   },
   /*
    ** Axios module configuration
