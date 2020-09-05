@@ -1,14 +1,12 @@
 /* eslint-disable import/first */
 require('dotenv').config()
 
-import path from 'path'
-import glob from 'glob'
 import head from './config/head'
 import { buildModules, modules, modulesSettings } from './config/modules'
 import plugins from './config/plugins'
 import build from './config/build'
 import css from './config/css'
-import { routeMap, otherRoutes } from './config/generate'
+import { routeMap, otherRoutes, getDynamicPaths } from './config/generate'
 
 export default {
   mode: 'universal',
@@ -45,19 +43,4 @@ export default {
    ** Build configuration
    */
   build: build
-}
-
-/**
- * Create an array of URLs from a list of files
- * @param {*} urlFilepathTable
- */
-function getDynamicPaths(urlFilepathTable) {
-  return [].concat(
-    ...Object.keys(urlFilepathTable).map((url) => {
-      const filepathGlob = urlFilepathTable[url]
-      return glob.sync(filepathGlob, { cwd: 'content' }).map((filepath) => {
-        return `${url}/${path.basename(filepath, '.md')}`
-      })
-    })
-  )
 }

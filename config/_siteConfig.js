@@ -20,15 +20,15 @@ export default {
   mainMenu: [
     {
       name: 'About',
-      link: '/about'
+      link: '/about/'
     },
     {
       name: 'Categories',
-      link: '/categories'
+      link: '/categories/'
     },
     {
       name: 'Contact',
-      link: '/contact'
+      link: '/contact/'
     }
   ],
   hero: {

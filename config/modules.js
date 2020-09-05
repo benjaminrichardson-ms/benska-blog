@@ -1,5 +1,6 @@
 import URL from 'url-parse'
 import siteConfig from './_siteConfig'
+import { routeMap, getDynamicPaths } from './generate'
 let url = false
 let axiosSettings = {}
 if (process.env.URL && process.argv[2] === 'generate') {
@@ -45,6 +46,11 @@ export const modulesSettings = {
     UserAgent: '*',
     Allow: '/',
     Sitemap: 'http://wanderingprius.com/sitemap.xml'
+  },
+  sitemap: {
+    hostname: 'http://wanderingprius.com',
+    gzip: true,
+    routes: [...getDynamicPaths(routeMap, true)]
   },
   /*
    ** Axios module configuration
