@@ -20,11 +20,16 @@ export const modules = [
   '@nuxtjs/axios',
   '@nuxtjs/eslint-module',
   '@nuxtjs/style-resources',
+  '@nuxtjs/robots',
   'nuxt-fontawesome',
-  'nuxt-responsive-loader'
+  'nuxt-responsive-loader',
+  '@nuxtjs/sitemap'
 ]
 
 export const modulesSettings = {
+  googleAnalytics: {
+    id: siteConfig.googleAnalytics.id
+  },
   fontawesome: {
     imports: [
       {
@@ -35,6 +40,11 @@ export const modulesSettings = {
   },
   styleResources: {
     scss: ['./assets/scss/_vars.scss']
+  },
+  robots: {
+    UserAgent: '*',
+    Allow: '/',
+    Sitemap: 'http://wanderingprius.com/sitemap.xml'
   },
   /*
    ** Axios module configuration
@@ -50,8 +60,5 @@ export const modulesSettings = {
     quality: 65, // images are compressed with medium quality
     adapter: require('responsive-loader/sharp'),
     disable: process.env.NODE_ENV === 'development'
-  },
-  googleAnalytics: {
-    id: siteConfig.googleAnalytics.id
   }
 }
