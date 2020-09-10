@@ -1,6 +1,6 @@
 ---
 title: Creating a productive workspace for on the road
-subtitle: Setting up a dual-monitor setup for productivity on the road
+subtitle: A dual-monitor setup for productivity on the road
 category:
   - Car Living
 author: Jam
@@ -19,21 +19,21 @@ The next item we needed to buy was the VESA wall mount. The idea here is that we
 
 ![VESA screen wall mount](/uploads/monitor-mount.jpg)
 
-We went with this option from eBay 10-27" LCD LED TV Monitor Wall Mount VESA Bracket Stand with Swivel Arms & Tilt https://www.ebay.com.au/itm/173711020744 . It cost $28AUD all up. It is simple, small, and very sturdy for the 'portable monitor' scenario we had instore for it.
+We went with this option from eBay 10-27" [LCD LED TV Monitor Wall Mount](https://www.ebay.com.au/itm/173711020744) VESA Bracket Stand with Swivel Arms & Tilt. It cost $28AUD all up. It is simple, small, and very sturdy for the 'portable monitor' scenario we had instore for it.
 
 The last part of getting this setup was the mount to the headrest. The idea was based off an [Instructables link](https://www.instructables.com/id/How-to-make-a-sturdy-adjustable-Headrest-Monitor-M/) showing what we wanted to do. In order to use some items I already had, I opted to make the main block in wood. I just trimmed up some I already had in the garage. Given I had a thick piece of wood to work with, I also opted to use a single piece and just bore 2 holes for the headrest stems to slide through. 
 
 ![Written plan of how the mount would work](/uploads/mount1.jpg)
 
-After measuring the stems on the headrest, I went and got a 16mm spade drill bit from Bunnings for $10 to drill the holes. My biggest worry here was being able to keep the drill bit parallel while drilling 2 holes over 100mm in depth. If I was off by a few degrees then I would probably bust out the sides of the wood. I cut a couple of extra pieces while I had the table saw out just in case this happened. My bit was also 1mm bigger than the headrest stems to allow for a bit of tolerance. After securing the piece of wood, and doing my best to keep everything straight I luckily managed to drill both holes, and they fit onto the headrest, the first time.
+After measuring the stems on the headrest, I went and got a 16mm spade drill bit from Bunnings for $10 to drill the holes. My biggest worry here was being able to keep the drill bit parallel while drilling 2 holes over 100mm in depth. If I was off by a few degrees then I would probably bust out the sides of the wood. I cut a couple of extra pieces while I had the table saw out just in case this happened. My bit was also 1mm bigger than the headrest stems to allow for a bit of tolerance. After securing the piece of wood, and doing my best to keep everything straight I luckily managed to drill both holes straight and parallel, and they fit onto the headrest, the first time.
 
 ![Cutting pieces of wood to size](/uploads/mount2.jpg)
 
-![Drilling holes for headrest posts](/uploads/mount3.jpg)
+![Drilling holes for headrest stems](/uploads/mount3.jpg)
 
-Once the wood was cut and drilled, the next step was to cover it in some foam and material. This makes it look a bit nicer, but also covers any sharp edges. Given where it was going to be mounted, it also makes it more comfortable for the passenger. The foam was off-cuts from our car mattress. Then the material was off-cuts from our curtain we put up each night. A bit of cutting the use of a staple gun later, the trimmings were complete.
+Once the wood was cut and drilled, the next step was to cover it in some foam and material. This makes it look a bit nicer, but also covers any sharp edges. Given where it was going to be mounted, it also makes it more comfortable for the passenger. The foam was off-cuts from our car mattress. Then the material was off-cuts from our curtain we put up each night. With a bit of cutting plus the use of a staple gun, the trimmings were complete.
 
-![Finished drilling holes headrest posts](/uploads/mount4.jpg)
+![Finished drilling holes headrest stems](/uploads/mount4.jpg)
 
 The mount got attached, the VESA portion got attached to the monitor and then the whole thing was installed in the car. In total, it was probably a couple of hours of work to get it all together and cost just under $200. Definitely not a bad little addition to the car.
 
