@@ -55,7 +55,6 @@ export default {
 <style lang="scss" scoped>
 .hero {
   // margin-top: 52px;
-  max-width: 90%;
   margin: 100px auto 0;
   background-size: cover !important;
   background-position: center;

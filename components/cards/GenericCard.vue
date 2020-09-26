@@ -126,7 +126,7 @@ export default {
   overflow: hidden;
 }
 .card-content {
-  padding: 15px;
+  padding: 15px 0;
 }
 </style>
 <style lang="scss">
