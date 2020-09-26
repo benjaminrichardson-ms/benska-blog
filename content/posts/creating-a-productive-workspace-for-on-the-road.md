@@ -5,7 +5,7 @@ category:
   - Car Living
 author: Jam
 date: 2020-09-10T11:58:49.500Z
-featureImage: /uploads/mount5.jpg
+featureImage: /uploads/bunya.jpg
 ---
 One of the items on our wishlist for a while was the ability to have a second monitor setup while working. For this trip, we decided to look into how we could pull it off. For our final product, we ended up with a 15-inch portable monitor, a VESA wall monitor mount, plus a custom build for attaching it to the car headrest.
 
