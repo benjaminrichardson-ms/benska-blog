@@ -22,15 +22,47 @@
             time as we travel far and wide across Australia.
           </p>
 
-          <quote-card />
+          <!-- <quote-card /> -->
 
           <h3>What are we doing on the trip?</h3>
           <p>
-            We both work Monday to Friday, but while we are not working we'll be
-            travelling from Canberra to Cairns, and back agian. On the weekends
-            we will be out exploring our new surrounds. During the week we'll be
-            enjoying the places we end up, and making sure we are somewhere
-            interesting to make the most of the weekends.
+            We both work Monday to Friday, but while we are not working, we'll
+            be travelling from Canberra to Cairns, and back again. On the
+            weekends we will be out exploring our new surrounds. During the week
+            we'll be enjoying the places we end up and making sure we are
+            somewhere interesting to make the most of the weekends.
+          </p>
+
+          <h3>How do you do this if you are working full-time?</h3>
+          <p>
+            We are working remotely for companies overseas. Our working hours
+            start around midday so we can drive to the next town and have a
+            little explore each morning. We only need to ensure we have internet
+            coverage on each place, while the Prius is taking care of our power
+            needs.
+          </p>
+
+          <h3>How do we sleep?</h3>
+          <p>
+            We put down boxes behind the front seat, put down the back seat and
+            unroll our foam mattress.
+          </p>
+
+          <h3>How do we go to the toilet or shower?</h3>
+          <p>
+            We mostly stay in caravan parks, which has amenities. The free
+            campsites or national parks also usually have a toilet block. We
+            typically don't stay in sites with no shower amenities for two days
+            in a row.
+          </p>
+
+          <h3>What do you eat?</h3>
+          <p>
+            We mostly cook since we brought a portable gas cooker and a rice
+            cooker. Most caravan parks have a camp kitchen too. Our meal varies
+            from something as simple as instant noodles or BBQ steak to Korean
+            tteokbokki or Japanese curry. We also do eat out when we see
+            interesting restaurants.
           </p>
         </div>
 
@@ -87,13 +119,18 @@
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { QuoteCard }
+  }
 }
 </script>
+<style lang="scss">
+.about-page {
+  .content {
+    max-width: 900px;
+  }
+}
+</style>
