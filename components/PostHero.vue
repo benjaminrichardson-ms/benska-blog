@@ -2,10 +2,7 @@
   <section :class="`post-hero is-medium post-hero-theme-${computedTheme}`">
     <div class="post-hero-body">
       <div class="container">
-        <div
-          v-if="$slots.default"
-          class="under-subtitle animated fadeInUp slower"
-        >
+        <div v-if="$slots.default" class="under-subtitle">
           <slot />
         </div>
         <h1 class="title animated fadeInUp">
@@ -74,7 +71,7 @@ export default {
   margin: 0;
 }
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.125rem;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   position: relative;
@@ -94,11 +91,12 @@ export default {
     display: block;
     height: 8px;
     left: 3px;
-    bottom: -1px;
+    bottom: 1px;
     transform: scaleX(0);
     transform-origin: left top;
     animation-name: scaleIn;
     animation-duration: 3s;
+    animation-delay: 2s;
     animation-fill-mode: both;
   }
 }
@@ -132,7 +130,7 @@ export default {
     opacity: 1;
   }
   .post-hero-body {
-    margin: 100px auto 20px;
+    margin: 100px auto 30px;
 
     @media (min-width: 768px) {
       margin-top: 130px;
@@ -159,5 +157,8 @@ export default {
   .under-subtitle strong {
     color: white;
   }
+}
+.post-hero-bg-img {
+  max-width: 1000px;
 }
 </style>

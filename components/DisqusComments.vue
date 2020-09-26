@@ -2,7 +2,7 @@
   <div v-if="$siteConfig.disqus.on" class="comments-wrapper section">
     <a
       v-if="$siteConfig.disqus.loadingStrategy === 'button' && !displayed"
-      class="button is-fullwidth is-outlined is-large"
+      class="button is-fullwidth is-outlined"
       @click="displayed = true"
     >
       Load Comments
@@ -42,3 +42,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.comments-wrapper {
+  padding: 2rem 0;
+}
+</style>

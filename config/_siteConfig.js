@@ -22,10 +22,6 @@ export default {
     {
       name: 'Categories',
       link: '/categories/'
-    },
-    {
-      name: 'Contact',
-      link: '/contact/'
     }
   ],
   hero: {
@@ -48,7 +44,7 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    siteShortName: 'wanderingprius' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe

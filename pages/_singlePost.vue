@@ -77,15 +77,48 @@ export default {
 }
 
 .post-page {
+  font-size: 1.125rem;
   .page-main-section {
     margin-top: 0;
+    padding-top: 30px;
   }
-  .post-wrapper {
-    margin: -100px auto 0;
-    padding: 50px;
+}
+
+.other-posts {
+  margin-top: 50px;
+  .subtitle {
+    display: inline-block;
     position: relative;
-    z-index: 2;
-    background: white;
+    line-height: 1;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      background: #ddd;
+      bottom: 0px;
+      left: 4px;
+      z-index: -1;
+    }
+  }
+}
+</style>
+<style lang="scss">
+.post-page {
+  .gif-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%;
+    position: relative;
+    margin-bottom: 1em;
+    iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 }
 </style>

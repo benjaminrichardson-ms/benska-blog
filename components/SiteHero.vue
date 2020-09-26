@@ -1,5 +1,5 @@
 <template>
-  <section :class="`hero is-medium hero-theme-${computedTheme}`">
+  <section :class="`hero hero-theme-${computedTheme}`">
     <img
       class="hero-bg-img"
       :src="responsiveImage.src"
@@ -155,6 +155,15 @@ export default {
   .under-subtitle,
   .under-subtitle strong {
     text-shadow: 1px 1px 2px white;
+  }
+}
+.hero-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home-page & {
+    min-height: 60vh;
   }
 }
 </style>
