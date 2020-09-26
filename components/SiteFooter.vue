@@ -1,10 +1,8 @@
 <template>
   <footer class="site-footer">
     {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - All
-    Rights Reserved
-    <br />
-    Made with <span style="color: #e25555;">&#9829;</span> with Nuxt.js and
-    Netlify
+    Rights Reserve. Made with <span style="color: #e25555;">&#9829;</span>
+    with Nuxt.js and Netlify
   </footer>
 </template>
 
@@ -20,5 +18,6 @@ footer {
   padding: 20px 10px;
   text-align: center;
   transition: 0.5s ease all;
+  font-size: 0.875rem;
 }
 </style>
