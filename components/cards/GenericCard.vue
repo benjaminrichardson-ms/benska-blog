@@ -18,6 +18,14 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
+          <ul v-if="category.length" class="card-content__categories">
+            <li
+              v-for="(cat, index) in category"
+              :key="index"
+              class="categories__item"
+              v-html="commaCat(cat, index)"
+            ></li>
+          </ul>
           <nuxt-link :to="link">
             <h3
               :class="
@@ -51,7 +59,11 @@ export default {
     title: { type: String, default: '' },
     image: { type: String, default: '' },
     link: { type: String, default: '' },
-    imageDimensions: { type: String, default: imageDimensionDefault }
+    imageDimensions: { type: String, default: imageDimensionDefault },
+    category: {
+      type: Array,
+      default: () => []
+    }
   },
   computed: {
     imageRatioClass() {
@@ -73,10 +85,19 @@ export default {
       }
       return { src: this.image, srcSet: '' }
     }
+  },
+  methods: {
+    commaCat(cat, index) {
+      if (index !== this.category.length - 1) return `${cat},&nbsp;`
+      return cat
+    }
   }
 }
 </script>
 <style scoped lang="scss">
+.card {
+  box-shadow: none;
+}
 .subtitle {
   opacity: 0.5;
   font-size: 0.8rem;
@@ -100,15 +121,30 @@ export default {
     width: 70%;
   }
 }
+.card-image {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-content {
+  padding: 15px;
+}
 </style>
 <style lang="scss">
 .opti-image-loaded + .spinner-wrapper {
   display: none;
 }
 .card img {
-  transition: 0.8s ease-in-out all;
+  transition: 0.4s ease-in-out all;
   &:hover {
     transform: scale(1.02);
   }
+}
+.card-content__categories {
+  margin-bottom: 5px;
+}
+.categories__item {
+  font-size: 0.75em;
+  display: inline-block;
+  line-height: 1;
 }
 </style>

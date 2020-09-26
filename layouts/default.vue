@@ -111,6 +111,6 @@ export default {
 <style>
 html,
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 </style>

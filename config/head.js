@@ -32,7 +32,7 @@ export default {
     {
       rel: 'stylesheet',
       href:
-        'https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Caveat+Brush&display=swap'
+        'https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Caveat+Brush&display=swap'
     }
   ],
   script: [
