@@ -17,7 +17,7 @@ We ended up going with a [AOC 15.6" E1659FWU](https://au.aoc.com/product_469_E16
 
 The next item we needed to buy was the VESA wall mount. The idea here is that we'll use this mount to attach the monitor to a flat surface (a block of wood in our case). The flat surface would be mounted to the headrest (will explain that next). We looked at a few mounts, and just needed to make sure it would fit in the space we had, that was limited by the way we were attaching it to the headrest. Also wanted to make sure we got something that did not stick out too much from the back of the chair. This was for practical purposes when using the monitor, also when driving you don't want something that will move around too much.
 
-![VESA screen wall mount](/uploads/monitor-mount.jpg)
+![VESA screen wall mount](/uploads/mount.jpg)
 
 We went with this option from eBay 10-27" [LCD LED TV Monitor Wall Mount](https://www.ebay.com.au/itm/173711020744) VESA Bracket Stand with Swivel Arms & Tilt. It cost $28AUD all up. It is simple, small, and very sturdy for the 'portable monitor' scenario we had instore for it.
 
