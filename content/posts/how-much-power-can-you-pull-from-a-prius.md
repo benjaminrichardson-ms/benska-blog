@@ -13,7 +13,7 @@ The main reason we have the inverter is to power our laptops as we are working d
 
 For the majority of the time though, we are just powering my Macbook Pro, and Ska's MSI laptop. They draw about 70 watts, and 100 watts respectively. We also need to factor in the approximately 10 watts that the inverter will draw just by being switched on. This gives us a load of around 180 watts for this test.
 
-![Giandel Inverter 600w](/uploads/inverter-2.jpg)
+![Giandel Inverter 600w](/uploads/battery.jpg)
 
 When we are using the inverter, most importantly, the car must be switched on so the Prius can replenish the batteries via the motor when they are getting low. The Prius will run the motor for several seconds when first switched on, then the motor will shut off. It will stay off until the batteries are getting low and the motor is needed to generate more electricity.
 
