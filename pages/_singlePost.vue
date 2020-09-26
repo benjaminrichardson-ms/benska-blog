@@ -1,16 +1,16 @@
 <template>
   <div id="post-page" class="page-wrapper post-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+    <post-hero :title="title" :subtitle="subtitle" :image="featureImage">
       <span
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
       >
-        <strong>Author:</strong> {{ author }}
+        by {{ author }}
       </span>
       <span v-if="date" class="date-wrapper">
-        <strong>Published on:</strong> {{ date }}
+        {{ date }}
       </span>
-    </site-hero>
+    </post-hero>
     <main-section :one-column-constrained="true">
       <template v-slot:default>
         <div class="post-wrapper">
@@ -37,10 +37,12 @@ import { setPageData, getFormattedDate } from '../helper'
 // import 'highlight.js/styles/github.css'
 import Markdown from '~/components/Markdown'
 import PostSidebar from '~/components/PostSidebar'
+import PostHero from '~/components/PostHero'
 export default {
   components: {
     Markdown,
-    PostSidebar
+    PostSidebar,
+    PostHero
   },
   computed: {
     ...mapState([
@@ -69,6 +71,21 @@ export default {
   margin-bottom: 20px;
 }
 .author-wrapper {
-  margin-right: 20px;
+  margin-right: 10px;
+  border-right: 1px solid #4a4a4a;
+  padding-right: 10px;
+}
+
+.post-page {
+  .page-main-section {
+    margin-top: 0;
+  }
+  .post-wrapper {
+    margin: -100px auto 0;
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+    background: white;
+  }
 }
 </style>
