@@ -5,7 +5,7 @@ category:
   - Car Living
 author: Jam
 date: 2020-09-04T08:43:42.452Z
-featureImage: /uploads/img_6281.jpg
+featureImage: /uploads/bunya.jpg
 ---
 One of the essential components of our Prius camper setup is our Pure Sine Wave inverter that can supply up to 600 watts of continuous power or 1,200 watts of burst power. The inverter is connected to the 12-volt battery of the car, and by keeping the car in the on 'Ready' position, the Prius will periodically run the motor to charge up the 12v battery to prevent over-discharge.
 
