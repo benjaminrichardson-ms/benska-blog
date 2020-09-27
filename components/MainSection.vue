@@ -66,5 +66,28 @@ export default {
   // &.left-sidebar {
   //   border-right: 1px solid #eee;
   // }
+  @media (max-width: 768px) {
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+
+  &.right-sidebar {
+    & > .subtitle {
+      display: inline-block;
+      position: relative;
+      line-height: 1;
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        background: #ddd;
+        bottom: 0px;
+        left: 4px;
+        z-index: -1;
+      }
+    }
+  }
 }
 </style>

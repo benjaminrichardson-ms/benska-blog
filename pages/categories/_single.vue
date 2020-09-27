@@ -24,7 +24,7 @@
               'is-active': cat.slug === $route.params.single
             }"
           >
-            {{ cat.name }}
+            <span>{{ cat.name }}</span>
           </nuxt-link>
         </div>
       </template>
@@ -47,3 +47,53 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+.category-page {
+  .right-sidebar {
+    .panel-heading:first-child,
+    .panel-tabs:first-child,
+    .panel-block:first-child {
+      border-top: 0;
+    }
+    .panel-heading,
+    .panel-tabs,
+    .panel-block {
+      border-left: 0;
+      border-right: 0;
+      &:hover {
+        background: none;
+      }
+      &.is-active,
+      &:hover {
+        span {
+          &::after {
+            transform: scaleX(1);
+          }
+        }
+      }
+      span {
+        position: relative;
+        line-height: 1;
+        display: inline-block;
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 10px;
+          background: $yellow;
+          bottom: -2px;
+          left: 4px;
+          z-index: -1;
+          transform: scaleX(0);
+          transform-origin: left top;
+          transition: transform 0.25s ease-in-out;
+        }
+      }
+    }
+    .panel-block {
+      padding-left: 0;
+    }
+  }
+}
+</style>

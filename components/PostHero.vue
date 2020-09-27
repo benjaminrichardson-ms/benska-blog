@@ -9,7 +9,7 @@
           {{ title }}
         </h1>
         <h2 class="subtitle animated fadeInUp slower">
-          <span class="subtitle__highlight"></span>
+          <!-- <span class="subtitle__highlight"></span> -->
           <span>{{ subtitle }}</span>
         </h2>
       </div>
@@ -52,17 +52,21 @@ export default {
 <style lang="scss" scoped>
 .post-hero {
   // margin-top: 52px;
-  max-width: 90%;
+  max-width: calc(100% - 40px);
   text-align: center;
   margin: 20px auto;
+  @media (max-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .title {
   font-family: 'Caveat Brush', cursive;
   font-weight: 400;
-  margin-bottom: 5px;
+  margin: 0 auto 5px;
   @media (min-width: 768px) {
     font-size: 3rem;
+    max-width: 80%;
   }
 }
 .subtitle,
@@ -84,21 +88,21 @@ export default {
     display: block;
   }
 
-  .subtitle__highlight {
-    position: absolute;
-    background: $yellow;
-    width: 100%;
-    display: block;
-    height: 8px;
-    left: 3px;
-    bottom: 1px;
-    transform: scaleX(0);
-    transform-origin: left top;
-    animation-name: scaleIn;
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-fill-mode: both;
-  }
+  // .subtitle__highlight {
+  //   position: absolute;
+  //   background: $yellow;
+  //   width: 100%;
+  //   display: block;
+  //   height: 8px;
+  //   left: 3px;
+  //   bottom: 1px;
+  //   transform: scaleX(0);
+  //   transform-origin: left top;
+  //   animation-name: scaleIn;
+  //   animation-duration: 3s;
+  //   animation-delay: 2s;
+  //   animation-fill-mode: both;
+  // }
 }
 
 @keyframes scaleIn {
@@ -160,5 +164,6 @@ export default {
 }
 .post-hero-bg-img {
   max-width: 1000px;
+  width: 100%;
 }
 </style>
