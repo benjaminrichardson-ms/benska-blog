@@ -43,8 +43,14 @@ export default {
   // Disqus
   disqus: {
     on: true,
-    loadingStrategy: 'button', // Options: onload, lazy, button
+    loadingStrategy: 'lazy', // Options: onload, lazy, button
     siteShortName: 'wanderingprius' // 'blog-danielkelly-io'
+  },
+
+  // Google Analytics
+  googleAnalytics: {
+    on: true,
+    id: process.env.GOOGLE_ANALYTICS_ID
   },
 
   // Newsletter Subscribe
