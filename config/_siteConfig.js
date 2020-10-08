@@ -46,7 +46,7 @@ export default {
     loadingStrategy: 'lazy', // Options: onload, lazy, button
     siteShortName: 'wanderingprius' // 'blog-danielkelly-io'
   },
-  
+
   // Newsletter Subscribe
   newsletter: {
     on: false,

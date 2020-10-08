@@ -12,7 +12,17 @@
     <main-section theme="one-column">
       <template v-slot:default>
         <!-- All Posts -->
-        <posts-grid />
+        <div v-for="category in categories" :key="category.slug">
+          <div class="category-header">
+            <h2 class="title animated fadeInUp">
+              {{ category.name }}
+            </h2>
+            <nuxt-link :to="`/categories/${category.slug}/`">
+              View more
+            </nuxt-link>
+          </div>
+          <posts-grid :category="[category.name]" :number="3" />
+        </div>
       </template>
       <template v-slot:sidebar>
         Nothing here
@@ -29,19 +39,30 @@ import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 
 export default {
   name: 'HomePage',
+  components: {
+    NewsLetterFormModal
+  },
   head() {
     return {
       title: `Home | ${this.$siteConfig.siteName}`
     }
   },
-  components: {
-    NewsLetterFormModal
+  data() {
+    return {
+      categories: []
+    }
   },
   computed: {
-    ...mapState(['title', 'subtitle', 'featureImage'])
+    ...mapState(['title', 'subtitle', 'featureImage']),
+    resourceController() {
+      return this.$cms.category
+    }
   },
   fetch({ store, params }) {
     setPageData(store, { slug: 'home' })
+  },
+  async created() {
+    this.categories = await this.resourceController.getByPage(1)
   }
 }
 </script>
@@ -49,5 +70,15 @@ export default {
 <style>
 .home-page .under-subtitle {
   border-top: none;
+}
+.category-header {
+  display: flex;
+  align-items: flex-end;
+
+  margin-bottom: 0.5rem;
+}
+.category-header > h2 {
+  margin-right: 1rem;
+  margin-bottom: 0 !important;
 }
 </style>
